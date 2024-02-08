@@ -3,9 +3,6 @@ package org.example;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import java.io.FileWriter;
-import java.io.IOException;
-
 @Component
 @Scope("prototype")
 public class Contact {
