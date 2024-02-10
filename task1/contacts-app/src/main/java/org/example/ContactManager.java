@@ -1,14 +1,12 @@
 package org.example;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Scanner;
 
-@Component
 public class ContactManager {
 
 
